@@ -1,5 +1,4 @@
-
-resource "aws_instance" "example_terraform" {
-    ami = "ami-01103fb68b3569475"
-    instance_type = "t2.micro"
+module "static_web_hosting" {
+  source = "./modules/static_web_hosting_aws"
+  user_uuid = var.user_uuid
 }
