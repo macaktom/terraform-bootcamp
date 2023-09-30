@@ -1,4 +1,4 @@
-# Terraform hosting 2023
+# Terraform web hosting CloudFront
 Static website hosting using CloudFront + S3 bucket
 
 
