@@ -8,3 +8,5 @@ Steps:
 3. Setup CloudFront distribution with 2 origins
 4. Configure both origins
 5. Create bucket policies for CloudFront to access S3 buckets
+6. Test locally
+7. Setup Jenkins + AWS config and add Jenkinsfile, which will apply terraform code
